@@ -3,7 +3,7 @@ height=float(input("please enter your height(m)"))
 #let users imput their self information
 BMI=weight/(height**2)
 #use the formula to caculate BMI
-BMI=int(BMI)
+BMI=round(BMI,2)
 #get a round number
 if BMI>30:
     print("your BMI is",BMI,", you are obese")

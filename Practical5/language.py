@@ -2,11 +2,14 @@
 
 #Let the users input the language they want to know the usage proportion of
 language=input("Language name:")
+
 #use the dictionary to record the information
 popularity={'JavaScript':62.3, 'HTML':52.9, 'Python':51, 'SQL':51, 'TypeScript':38.5}
-print(popularity[language])
+if language in popularity:
 #returns the usage proportion of the language by checking the dictionary
-print("The percentage of people using",language,"is",popularity[language],"%")
+   print("The percentage of people using",language,"is",popularity[language],"%")
+else:
+   print("The language is not in the list")
 
 #To draw a bar graph
 import matplotlib.pyplot as plt

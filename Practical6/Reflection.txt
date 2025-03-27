@@ -1,0 +1,4 @@
+In this practical, the most important thing I learned is how to use graphs to analyze the real-world problems.
+I learned how to modele infectious disease spread using the SIR framework, and used a 2D grid and visualizing it with heatmaps. 
+It is really hard to complete a complex long loop structure to predict the result. 
+It is also a challenge that how to clearly express many results in one image. 

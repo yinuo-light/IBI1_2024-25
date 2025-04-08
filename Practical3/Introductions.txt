@@ -1,4 +1,4 @@
-Hello, my name is gyn-light.
-I like drinking tea and eating chocolate biscuits.
+Hello, my name is Ge Yinuo.
+I like drinking coffee and eating chocolate biscuits.
 I am enjoying learning IBI1 
 I am happy that I can push my repo from Visual Studio Code to GitHub

@@ -1,0 +1,4 @@
+My question is What country or countries have recorded a DALYs greater than 650,000 in a single year?
+The line number in the code: 46
+
+Result Discussion: Rawanda is the only country have recorded a DALYs greater than 650,000 in a single year

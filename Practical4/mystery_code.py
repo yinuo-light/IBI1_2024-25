@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer: count the whole number of the attempts until in an attempt the two numbers named first_n and second_n which randomly choose from 1 to 5 are the same
+# Answer: count the whole number of the attempts until in an attempt the two numbers named first_n and second_n which randomly choose from 1 to 6 are the same
 
 # Import libraries
 # randint allows drawing a random number,
@@ -14,8 +14,8 @@ progress=0
 while progress>=0:
 	progress+=1
 	
-	first_n = randint(1,5)
-	second_n = randint(1,5)
+	first_n = randint(1,6)
+	second_n = randint(1,6)
 	if first_n == second_n:
 		print(progress)
 		break

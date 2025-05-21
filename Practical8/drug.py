@@ -23,7 +23,7 @@ try:
     weight = 30 
     strength = '120mg/5ml' 
     drug_volume = calculate(weight, strength)
-    print(drug_volume)
+    print("If the weight is 30kg, the strength is 120mg/5ml,the volume of the drug is",drug_volume,"ml")
 except Exception as e:
     print(f"An error occurred: {e}")
 

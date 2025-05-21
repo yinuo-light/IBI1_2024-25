@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Set total population(N),infection rate(beta)，recovery rate(gamma),simulation time, 
+# Set total population(N),infection rate(beta)，recovery rate(gamma) and simulation time
 N=10000
 beta=0.3
 gamma=0.05

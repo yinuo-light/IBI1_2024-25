@@ -9,5 +9,5 @@ seq1= re.findall(r'GT.+AG',seq)
 intron_lengths = [len(intron) for intron in seq1]
 
 # print out the result
-print(seq1)
-print(intron_lengths)
+print("The largest intron is",seq1)
+print("The lengths of the largest intron is", intron_lengths)
